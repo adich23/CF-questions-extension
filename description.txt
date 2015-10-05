@@ -1,0 +1,5 @@
+Kills the news feed and replaces it with your pending Questions(WA, Compile error etc.) on Codeforces, CLick on the question to open it in new tab for solving. That's it. You can still check your messages and notifications, post status updates, and do everything you could do before. You just won't get distracting news feed posts anymore.
+
+No more wasting time on Facebook.Solve your pending questions and practice new ones!
+
+The source code link on Github will be published soon.
