@@ -16,7 +16,7 @@ Currently only first 1000 submissions are fetched.
 <br>
 **background.js** is used for making a secure http connection from https facebook page.
 ## TODO
-- Correctly link Gym problems to their webpages. 
+- ~~Correctly link Gym problems to their webpages.~~
 - Add a timer facility to remove feed after say 10 minutes of daily usage Or removing it after 2 minutes of refreshing the page.
 - Port the extension to firefox.
 
