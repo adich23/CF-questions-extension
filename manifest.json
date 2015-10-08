@@ -1,6 +1,6 @@
 {
   "name": "Codeforces WA Questions FB News Feed",
-  "version": "1.2.0.1",
+  "version": "1.2.1.1",
   "description": "See your pending questions(WA,Compile error etc.) on Codeforces instead of distracting posts on Facebook news feed.",
   "content_scripts": [{
       "matches": ["*://*.facebook.com/*"],
