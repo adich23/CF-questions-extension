@@ -122,11 +122,15 @@ function blockAndDisplay() {
           for(var i=0;i<size;i++) {
             var len = list[i].length;
             // console.log(prob_name[list[i]]);
-            message = $('<a>')
+            var contestNo = (list[i].substring(0,len-1));
+            if(contestNo > 9999) {
+            	// console.log("gym",contestNo);
+
+            	 message = $('<a>')
                 .attr('id', 'distracted')
                 .text(list[i]+"\t   "+prob_name[list[i]]+"\n ")
                 // .text("Codeforces!!"+list[i].slice(-1)+list[i].substring(0,len-1))
-                .attr("href","http://codeforces.com/contest/"+list[i].substring(0,len-1)+"/problem/"+list[i].slice(-1))
+                .attr("href","http://codeforces.com/problemset/gymProblem/"+list[i].substring(0,len-1)+"/"+list[i].slice(-1))
                 .attr("target",'_blank')
                 .css('font-size', '25px')
                 .css('font-family', "'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif")
@@ -135,7 +139,26 @@ function blockAndDisplay() {
             
              newline = $('<br>')
                 .attr('id', 'distracted');
-               
+
+
+            }
+            else {
+            	// console.log("nope",contestNo);
+           
+	            message = $('<a>')
+	                .attr('id', 'distracted')
+	                .text(list[i]+"\t   "+prob_name[list[i]]+"\n ")
+	                // .text("Codeforces!!"+list[i].slice(-1)+list[i].substring(0,len-1))
+	                .attr("href","http://codeforces.com/contest/"+list[i].substring(0,len-1)+"/problem/"+list[i].slice(-1))
+	                .attr("target",'_blank')
+	                .css('font-size', '25px')
+	                .css('font-family', "'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif")
+	                .css('position', 'relative')
+	                .css('top', '75px');
+	            
+	             newline = $('<br>')
+	                .attr('id', 'distracted');
+            }
             
             feed.append(message);
             feed.append(newline);
