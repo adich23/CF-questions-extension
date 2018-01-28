@@ -2,6 +2,8 @@
 
 A chrome extension that shows your pending questions on Codeforces instead of posts in Facebook feed.Click any of them to open the problem page.
 
+![Sample facebook home page](https://github.com/adich23/CF-questions-extension/blob/master/images/working1280x800.png)
+
 ## Installation Instructions
 
 The extention can be installed from [Chrome web store](https://chrome.google.com/webstore/detail/codeforces-wa-questions-f/ohjicmhfblgpmcbholdnnbjgamifmoli).
